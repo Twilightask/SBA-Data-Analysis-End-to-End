@@ -36,7 +36,7 @@ How portfolio performance changed over time
 
 The final findings are presented through an interactive 4-page Power BI dashboard.
 
-🎯 Business Objectives
+Business Objectives:
 
 The project was designed to answer key lending and portfolio-risk questions:
 
@@ -60,7 +60,9 @@ MySQL	Exploratory analysis, business analysis and risk analysis
 Power BI	Interactive dashboards and visualization
 DAX	Dashboard measures and calculated metrics
 GitHub	Project documentation and portfolio presentation
-🔄 End-to-End Workflow
+
+End-to-End Workflow:
+
 Raw SBA Dataset
        ↓
 Excel
@@ -77,7 +79,8 @@ Interactive Dashboard
 Business Insights
        ↓
 Recommendations
-🧹 Data Preparation
+
+Data Preparation:
 
 The dataset was cleaned and validated before analysis.
 
@@ -107,7 +110,8 @@ Charged-Off Category
 
 These features were created using transparent, rule-based categorisation rather than replacing the original source fields.
 
-📊 Key Metrics
+Key Metrics:
+
 Default Rate
 Default Rate =
 Defaulted Loans / Total Loans
@@ -130,7 +134,7 @@ Average Loan Amount
 
 Average disbursed loan amount across the portfolio.
 
-🔎 SQL Analysis
+SQL Analysis:
 
 MySQL was used to perform the core business and risk analysis.
 
@@ -190,7 +194,7 @@ Performance scorecards
 
 The final Power BI report contains four analytical pages.
 
-1️⃣ Portfolio Overview
+1️. Portfolio Overview
 
 Provides an executive-level view of:
 
@@ -209,7 +213,7 @@ Business Purpose
 
 Provides a high-level view of portfolio scale, funding, borrower mix and overall credit performance.
 
-2️⃣ Sector & Borrower Risk Analysis
+2️. Sector & Borrower Risk Analysis
 
 Focuses on sector-level risk and loan characteristics.
 
@@ -226,7 +230,7 @@ Business Purpose
 
 Identifies industries and loan characteristics associated with higher historical credit risk and financial losses.
 
-3️⃣ State & Geographic Loan Analysis
+3️. State & Geographic Loan Analysis
 
 Focuses on geographic portfolio performance.
 
@@ -244,7 +248,7 @@ Business Purpose
 
 Helps identify geographic concentration, state-level risk and exposure patterns.
 
-4️⃣ Loan & Borrower Risk Analysis
+4️. Loan & Borrower Risk Analysis
 
 Focuses on borrower characteristics and financial impact.
 
@@ -259,17 +263,17 @@ Business Purpose
 
 Moves the analysis closer to the lending decision by examining which borrower and loan characteristics are associated with historical risk.
 
-💡 Key Business Insights
+
+Key Business Insights
+
 1. Portfolio Credit Risk Is Material
 
 The portfolio contains approximately 899K loans with an observed default rate of 17.55%.
-
 This demonstrates why portfolio growth should be evaluated together with credit-risk indicators rather than using loan volume alone.
 
 2. Self-Employed Borrowers Show Higher Observed Default Rates
 
 The Self-Employed employee category has an observed default rate of approximately 22.80%, considerably higher than several larger employee categories.
-
 This suggests that business size can be a useful historical risk indicator when combined with other borrower characteristics.
 
 3. New Businesses Show Higher Default Rates
@@ -294,7 +298,6 @@ Medium	11.33%
 Very High	0.92%
 
 The results indicate a strong historical relationship between coverage category and observed default performance.
-
 However, this should not be interpreted as proof of causation.
 
 5. Short-Term Loans Show Higher Observed Default Rates
@@ -392,7 +395,8 @@ Customer personas can help identify borrower combinations associated with higher
 
 However, they should support—not replace—formal credit underwriting.
 
-🎯 Historical Risk-Screening Framework
+
+Historical Risk-Screening Framework:
 
 Based on the analysis, the project proposes using historical characteristics to support a three-level risk-screening framework:
 
@@ -413,6 +417,7 @@ SBA Coverage
 Historical sector/borrower performance
 
 This is intended as a historical analytical screening framework, not a production credit-scoring model.
+
 
 ⚠️ Important Assumptions & Limitations
 Unknown Industry
@@ -459,7 +464,8 @@ Historical Dataset
 
 The findings represent historical observations in the available SBA dataset and may not directly represent current lending conditions.
 
-📂 Project Structure
+
+--> Project Structure
 SBA-Loan-Analytics/
 │
 ├── README.md
@@ -487,7 +493,10 @@ SBA-Loan-Analytics/
     ├── Sector Risk Analysis.png
     ├── State Geographic Analysis.png
     └── Loan Borrower Risk Analysis.png
-📊 Dashboard Preview
+
+
+Dashboard Preview:
+
 Portfolio Overview
 
 Sector & Borrower Risk Analysis
@@ -498,7 +507,8 @@ Loan & Borrower Risk Analysis
 
 Replace the screenshot paths above with the exact filenames you upload to GitHub.
 
-🚀 What This Project Demonstrates
+
+What This Project Demonstrates:
 
 This project demonstrates an end-to-end Data Analytics workflow:
 
@@ -515,12 +525,10 @@ Business intelligence
 Power BI dashboard development
 Business interpretation
 Data-driven recommendations
-👤 Author
 
+
+Author:
 Aayush Kumbhar
 
-Aspiring Data Analyst focused on SQL, Power BI, Excel, Python and business analytics.
-
-⭐ Final Note
-
+Note:
 This project is an analytical case study based on historical SBA loan data. The findings and recommendations are intended to demonstrate data-driven portfolio risk analysis and should not be interpreted as an official credit assessment or lending recommendation for any financial institution.
