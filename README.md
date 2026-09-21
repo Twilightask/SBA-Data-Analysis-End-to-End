@@ -460,40 +460,6 @@ Minimum Sample-Size Thresholds
 
 Minimum loan-count thresholds were used in several comparisons to reduce the influence of small samples and potentially unstable default rates.
 
-Historical Dataset
-
-The findings represent historical observations in the available SBA dataset and may not directly represent current lending conditions.
-
-
---> Project Structure
-SBA-Loan-Analytics/
-│
-├── README.md
-│
-├── Data/
-│   └── Cleaned SBA Dataset
-│
-├── SQL/
-│   ├── Portfolio Analysis.sql
-│   ├── Sector Analysis.sql
-│   ├── Risk Analysis.sql
-│   ├── Bank Analysis.sql
-│   ├── Customer Persona Analysis.sql
-│   └── Time Analysis.sql
-│
-├── Power BI/
-│   └── SBA Loan Risk Dashboard.pbix
-│
-├── Documentation/
-│   ├── Project Report.docx
-│   └── SQL Business Insights.docx
-│
-└── Screenshots/
-    ├── Portfolio Overview.png
-    ├── Sector Risk Analysis.png
-    ├── State Geographic Analysis.png
-    └── Loan Borrower Risk Analysis.png
-
 
 Dashboard Preview:
 
@@ -505,12 +471,8 @@ State & Geographic Analysis
 
 Loan & Borrower Risk Analysis
 
-Replace the screenshot paths above with the exact filenames you upload to GitHub.
-
 
 What This Project Demonstrates:
-
-This project demonstrates an end-to-end Data Analytics workflow:
 
 Data cleaning and validation
 Data transformation
