@@ -12,7 +12,7 @@ The original dataset is provided by the U.S. Small Business Administration (SBA)
 
 The cleaned dataset used for the SQL analysis and Power BI dashboard is available here:
 
-[Download Cleaned Dataset](https://drive.google.com/file/d/1szetfKxdfITN2BX7VGgSgb-qeihvgTmN/view?usp=sharing))
+[Download Cleaned Dataset](https://drive.google.com/file/d/1szetfKxdfITN2BX7VGgSgb-qeihvgTmN/view?usp=sharing)
 
 ## Data Preparation
 
